@@ -79,7 +79,5 @@ int main()
        if(s2[i]!='*')
          cout<<s2[i]<<" ";
    }
-   string res;
-   
-    return 0;
+   return 0;
 }
