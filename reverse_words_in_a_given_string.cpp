@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-    string s="i.like.this.program.very.much";
+    string s;
+    cin>>s;
     string ans="";
     s='.'+s;
     int n1=s.length();
