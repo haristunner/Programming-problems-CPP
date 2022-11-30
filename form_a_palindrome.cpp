@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-    string s="aaaabaaaa";
+    string s;
+    cin>>s;
     int n=s.length();
     string t="", r="";
     int j=0, count=0, n1=0;
