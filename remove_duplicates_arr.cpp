@@ -15,12 +15,12 @@ int main()
         {
             if(s[i]==s[j])
             {
+                n--;
                 for(int k=j; k<n; k++)
                 {
                     s[k]=s[k+1];
                 }
                 j--;
-                n--;
             }
         }
     }
